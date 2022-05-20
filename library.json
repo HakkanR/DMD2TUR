@@ -1,0 +1,26 @@
+{
+    "name": "DMD2TUR",
+    "version": "1.0.0",
+    "description": "This library brings DMD2 library to use Turkish letters.",
+    "keywords": "DMD2, Turkish character support, P10 Led Panel, Display ",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/HakkanR/DMD2TUR.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Hakan OZMEN",
+        "email": "hakkanr@gmail.com",
+        "url": "https:en.devrelerim.com"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://www.devrelerim.com/p/dmd2tur.html",
+    "dependencies": {
+      "freetronics/DMD2": "~0.0.4"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
