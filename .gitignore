@@ -4,12 +4,3 @@
 .pio
 .vscode
 *.ini
-fonts/SystemFont5x11Tr.h
-src/main.cpp
-src/DMD2_Text.cpp
-src/DMD2_TextBox.cpp
-src/DMD2_Timer.cpp
-src/DMD2.cpp
-src/DMDFrame.cpp
-include/main.h
-include/DMD2.h

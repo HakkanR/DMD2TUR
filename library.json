@@ -1,7 +1,7 @@
 {
     "name": "DMD2TUR",
     "version": "1.0.0",
-    "description": "This library brings DMD2 library to use Turkish letters.",
+    "description": "This library brings an ability DMD2 library to use Turkish letters.",
     "keywords": "DMD2, Turkish character support, P10 Led Panel, Display ",
     "repository":
     {
@@ -21,6 +21,6 @@
     "dependencies": {
       "freetronics/DMD2": "~0.0.4"
     },
-    "frameworks": "*",
-    "platforms": "*"
+    "frameworks": "arduino",
+    "platforms": "avr, sam, esp8266"
   }

@@ -4,7 +4,7 @@
 # example sketch files (.ino files) in the Arduino IDE.
 #
 #
-EXAMPLES = ScrollingAlphabet Countdown GameOfLife AllDrawingOperations
+EXAMPLES = WriteTr
 
 all: TARG=all
 clean: TARG=clean
