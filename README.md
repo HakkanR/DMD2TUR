@@ -7,7 +7,15 @@ DMD2TUR is an Arduino library works with DMD2 Library. It brings you to write tu
 If you find any bugs, please use the Issues feature in github to report them or [Contact me on my web page](https://www.devrelerim.com).
 
 ## Basic Usage
+This library needs to be used its own font files located include/TrFonts folder. DMD2 fonts are not supported Turkish letters. So, your includes should be like below :
 
+*(You don't need to include DMD2 lib)*
+```cpp
+    #include <DMD2TUR.h>
+    #include <TrFonts/System5x7Tr.h>
+```
+
+Your code like below :
 ```cpp
     SoftDMD dmd(panelsWidth, panelsHigh);
     BoxTr box(dmd);
