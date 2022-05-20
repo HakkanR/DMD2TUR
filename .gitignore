@@ -4,3 +4,7 @@
 .pio
 .vscode
 *.ini
+main.*
+test
+lib
+
