@@ -15,6 +15,15 @@ If you find any bugs, please use the Issues feature in github to report them or 
     dmd.begin();
     box.print("Türkçe");
 ```
+
+## Notice if you work with Arduino Mega
+
+Use SoftDMD instance like below:
+
+```cpp
+    SoftDMD dmd(panelsWide, panelsHigh, pinNoe, pinA, pinB, pinSCK, pinCLK, pinDATA);
+```
+
 ## Dependencies
  * [DMD2 library](http://github.com/freetronics/DMD2) 
 
