@@ -5,6 +5,6 @@
 .vscode
 *.ini
 main.*
-test
-lib
+test/
+lib/
 
