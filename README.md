@@ -37,10 +37,10 @@ Use SoftDMD instance like below:
 
 ## Fonts can be used
 * System5x7Tr
+* Arial Black 16
 
 ## Fonts will be added
 
-* Arial Black 16
 * Droid Sans 12
 * Droid Sans 16
 * Droid Sans 24
