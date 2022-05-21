@@ -1,7 +1,7 @@
 {
     "name": "DMD2TUR",
-    "version": "1.0.1",
-    "description": "This library brings an ability DMD2 library to use Turkish letters.",
+    "version": "1.0.2",
+    "description": "This library brings an ability DMD2 library to use Turkish letters. Compatable with P10 Led Panel.",
     "keywords": "DMD2, Turkish character support, P10 Led Panel, Display ",
     "homepage": "https://www.devrelerim.com/p/dmd2tur.html",
     "repository": {
