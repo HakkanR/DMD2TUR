@@ -22,4 +22,5 @@ clear	KEYWORD2
 # Constants (LITERAL1)
 #######################################
 
-SystemFont5x7Tr	LITERAL1
+SystemFont5x7TR	LITERAL1
+Arial_Black_16TR	LITERAL1

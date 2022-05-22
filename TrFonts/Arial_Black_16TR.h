@@ -55,7 +55,7 @@
 #define ARIAL_BLACK_16TR_WIDTH 10
 #define ARIAL_BLACK_16TR_HEIGHT 16
 
-static const uint8_t Arial_Black_16Tr[] PROGMEM = {
+static const uint8_t Arial_Black_16TR[] PROGMEM = {
     0x31, 0x5f, // size
     0x0A, // width
     0x10, // height

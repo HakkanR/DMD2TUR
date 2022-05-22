@@ -9,7 +9,8 @@
 
 #include <SPI.h>
 #include <DMD2TUR.h>
-#include <TrFonts/SystemFont5x7Tr.h>
+#include <TrFonts/SystemFont5x7TR.h>
+#include <TrFonts/Arial_Black_16TR.h>
 
 // Set Width to number of displays wide you have
 const int PWIDTH = 1;
@@ -19,6 +20,7 @@ const int PHIGH = 1;
 
 // Set Font
 const uint8_t *FONT = System5x7TR;
+//const uint8_t *FONT = Arial_Black_16TR;
 
 const char *msg = "P10 Türkçe";
 
