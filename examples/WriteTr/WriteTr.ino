@@ -19,10 +19,18 @@ const int PWIDTH = 1;
 const int PHIGH = 1;
 
 // Set Font
-const uint8_t *FONT = System5x7TR;
-//const uint8_t *FONT = Arial_Black_16TR;
+//const uint8_t *FONT = System5x7TR;
+const uint8_t *FONT = Arial_Black_16TR;
 
-const char *msg = "P10 Türkçe";
+const char *msg = "P10 Türkçe ";
+
+/* If you work with Arduino Mega, uncomment line 32 and 33 
+ * and comment line 35, 
+ * connect P10 panel pins to Arduino Mega pins like definition.
+ */
+
+// byte pinNoe = 9, pinA = 6, pinB = 7, pinSCK = 8, pinCLK = 52, pinDATA = 51;
+// SoftDMD dmd(PWIDTH, PHIGH, pinNoe, pinA, pinB, pinSCK, pinCLK, pinDATA);
 
 SoftDMD dmd(PWIDTH,PHIGH);
 BoxTr box(dmd);
