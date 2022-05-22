@@ -6,17 +6,17 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-BoxTr   KEYWORD1
-SoftDMD KEYWORD1
-DMD_TextBox    KEYWORD1
+BoxTr   KEYWORD1    DMD2TUR
+SoftDMD KEYWORD1    DMD2
+DMD_TextBox KEYWORD1
 
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin	KEYWORD2
-clear	KEYWORD2
+begin   KEYWORD2
+clear   KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
