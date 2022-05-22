@@ -26,9 +26,14 @@ Your code like below :
 
 ## Notice if you work with Arduino Mega
 
-Use SoftDMD instance like below:
+Connect P10 panel pins to Arduino Mega pins like definition.
+```cpp
+    byte pinNoe = 9, pinA = 6, pinB = 7, pinSCK = 8, pinCLK = 52, pinDATA = 51;
+```
+and SoftDMD instance should be like below:
 
 ```cpp
+    byte pinNoe = 9, pinA = 6, pinB = 7, pinSCK = 8, pinCLK = 52, pinDATA = 51;
     SoftDMD dmd(panelsWide, panelsHigh, pinNoe, pinA, pinB, pinSCK, pinCLK, pinDATA);
 ```
 
@@ -36,8 +41,8 @@ Use SoftDMD instance like below:
  * [DMD2 library](http://github.com/freetronics/DMD2) 
 
 ## Fonts can be used
-* System5x7Tr
-* Arial Black 16
+* System5x7TR
+* Arial_Black_16TR
 
 ## Fonts will be added
 
