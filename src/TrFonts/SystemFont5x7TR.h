@@ -54,7 +54,7 @@
  * as well as keep the old name for backward compability
  */
 
-#define SystemFont5x7 System5x7TR
+#define SystemFont5x7TR System5x7TR
 
 static const uint8_t System5x7TR[] PROGMEM = {
     0x0, 0x0, // size of zero indicates fixed width font, actual length is width * height
