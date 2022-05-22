@@ -1,6 +1,6 @@
 # DMD2TUR
 
-DMD2TUR is an Arduino library works with DMD2 Library. It brings you to write turkish letters freely.
+DMD2TUR is an Arduino library works with DMD2 Library. It brings you to write turkish letters freely on P10 Led Panel.
 
 **This library is not the library can drive dot matix displays (e.g.p10) itself. It has a dependecy on DMD2 library can be found this link->** [DMD2 library](http://github.com/freetronics/DMD2) 
 
@@ -12,16 +12,17 @@ This library needs to be used its own font files located include/TrFonts folder.
 *(You don't need to include DMD2 lib)*
 ```cpp
     #include <DMD2TUR.h>
-    #include <TrFonts/System5x7Tr.h>
+    #include <TrFonts/SystemFont5x7TR.h>
+    #include <TrFonts/Arial_Black_16TR.h>
 ```
 
 Your code like below :
 ```cpp
     SoftDMD dmd(panelsWidth, panelsHigh);
     BoxTr box(dmd);
-    dmd.selectFont(System5x7Tr);
+    dmd.selectFont(Arial_Black_16TR);
     dmd.begin();
-    box.print("Türkçe");
+    box.print("Türkçe Yazı");
 ```
 
 ## Notice if you work with Arduino Mega
