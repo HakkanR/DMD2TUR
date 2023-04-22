@@ -2,7 +2,7 @@
 
 DMD2TUR is an Arduino library works with DMD2 Library. It brings you to write turkish letters freely on P10 Led Panel.
 
-**This library is not the library can drive dot matix displays (e.g.p10) itself. It has a dependecy on DMD2 library can be found this link->** [DMD2 library](http://github.com/freetronics/DMD2) 
+**This library is not the library can drive dot matix displays (e.g.p10) itself. It has a dependency on DMD2 library can be found this link->** [DMD2 library](http://github.com/freetronics/DMD2) 
 
 If you find any bugs, please use the Issues feature in github to report them or [Contact me on my web page](https://www.devrelerim.com).
 
@@ -37,6 +37,23 @@ and SoftDMD instance should be like below:
     byte pinNoe = 9, pinA = 6, pinB = 7, pinSCK = 8, pinCLK = 52, pinDATA = 51;
     SoftDMD dmd(panelsWide, panelsHigh, pinNoe, pinA, pinB, pinSCK, pinCLK, pinDATA);
 ```
+## Charmap for Turkish Letters
+| Char Byte | Letter |
+|-----------|--------|
+| 0X1F      | ı      |
+| 0X1E      | İ      |
+| 0x1D      | Ğ      |
+| 0x1C      | ğ      |
+| 0x1B      | ö      |
+| 0x1A      | Ö      |
+| 0x19      | Ü      |
+| 0x18      | ü      |
+| 0x17      | Ç      |
+| 0x16      | ç      |
+| 0x15      | Ş      |
+| 0x14      | ş      |
+
+
 
 ## Dependencies
  * [DMD2 library](http://github.com/freetronics/DMD2) 
@@ -44,6 +61,7 @@ and SoftDMD instance should be like below:
 ## Fonts can be used
 * System5x7TR
 * Arial_Black_16TR
+* calibri16_Tr
 
 ## Fonts will be added
 
